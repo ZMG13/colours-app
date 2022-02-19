@@ -1,5 +1,4 @@
 
-
 class Colours {
 
     private val colours = listOf("Red", "Orange", "Yellow", "Green", "Blue", "Indigo", "Violet", "Black", "Silver")
@@ -33,7 +32,8 @@ class Colours {
 
     fun coloursInAllCapitals() : List<String>{
         //TODO return the colours in ALL CAPS
-        return listOf("this should return colours in all capitals")
+        return colours.map {it.uppercase()}
+
     }
 
     fun coloursStartingWithLetter(letter: Char) : List<String>{
