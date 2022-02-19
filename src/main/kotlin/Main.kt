@@ -29,7 +29,7 @@ fun main(args: Array<String>){
     println(colours.firstColour())
 
     print("___ is the last colour in the list")
-    print(colours.lastColour())
+    println(colours.lastColour())
 
     println("Sorted list is: ")
     print(colours.coloursInAplhabeticOrder())
