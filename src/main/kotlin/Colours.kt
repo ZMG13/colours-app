@@ -62,5 +62,8 @@ class Colours {
 
     //TODO Write THREE additional functions of your choice that will perform some sort of
     // analysis on the colours list.
+    fun randomColour(): String{
+        return colours.random()
 
+    }
 }
