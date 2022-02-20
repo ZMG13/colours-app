@@ -64,10 +64,13 @@ class Colours {
     // analysis on the colours list.
     fun randomColour(): String{
         return colours.random()
-
     }
 
     fun coloursRevered(): String{
         return colours.reversed().toString()
+    }
+
+    fun coloursListRandom(): String{
+        return colours.shuffled().toString()
     }
 }

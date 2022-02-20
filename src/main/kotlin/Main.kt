@@ -60,4 +60,6 @@ fun main(args: Array<String>){
       println("Random colour from list: ${colours.randomColour()}")
 
      println ("Colours list reversed: ${colours.coloursRevered()}")
+    println("")
+    println ("Colours list in random order: ${colours.coloursListRandom()}")
 }
