@@ -66,4 +66,8 @@ class Colours {
         return colours.random()
 
     }
+
+    fun coloursRevered(): String{
+        return colours.reversed().toString()
+    }
 }

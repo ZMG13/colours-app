@@ -58,4 +58,6 @@ fun main(args: Array<String>){
 
     //TODO for the three additional functions you wrote in Colours.kt, print the returned value here.
       println("Random colour from list: ${colours.randomColour()}")
+
+     println ("Colours list reversed: ${colours.coloursRevered()}")
 }
