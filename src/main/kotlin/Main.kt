@@ -50,6 +50,7 @@ fun main(args: Array<String>){
     println("")
 
     println("The list of colours, each printed on a new line is:")
+  // println("Colour: ${colours.coloursListOf()}")
     //TODO Write Code here (below this comment) to print the list in this format:
     //    Colour: Red
     //    Colour: Orange
